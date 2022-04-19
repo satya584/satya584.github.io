@@ -1,2 +1,2 @@
 # satya584.github.io
-Repo for personal portfolio webpage
+Repo for personal portfolio githubpage
