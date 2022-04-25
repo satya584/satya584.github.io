@@ -67,69 +67,43 @@ export default {
 	projects: {
 		web: [
 			{
-				projectName: "Programming Diaries",
-				image: "images/programmingdiaries.png",
-				summary:
-					"Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
-				preview: "https://github.com/satya584",
-				techStack: [
-					"Django",
-					"SQLite",
-					"Bootstrap",
-					"JavaScript",
-					"Heroku",
-				],
-			},
-			{
-				projectName: "Find Your Bank",
-				image: "images/findyourbank.png",
-				summary:
-					"Developed a React application to render a list of banks fetched from API. Filtered the banks based on queries from localstorage, marked favorites banks.",
-				preview: "https://github.com/satya584",
-				techStack: ["Reactjs", "Bootstrap", "JavaScript", "Netlify"],
-			},
-			{
 				projectName: "Web Portfolio",
-				image: "images/portfolio.png",
+				image: "images/satya-portfolio.png",
 				summary:
 					"Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
-				preview: "https://github.com/satya584",
+				preview: "https://satya584.github.io",
 				techStack: ["HTML", "Bootstrap", "JavaScript"],
 			},
 			{
-				projectName: "Resume Builder",
-				image: "images/resume-builder.png",
+				projectName: "Classic Tetris game",
+				image: "images/Tetris_game.jpg",
 				summary:
-					"Browser based editor to build and download Resumes in a customizable templates.",
-				preview: "https://github.com/satya584",
-				techStack: ["HTML", "Bootstrap", "JavaScript"],
+					"Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
+				preview: "https://satya584.github.io/JS-Games/tetris/",
+				techStack: [
+					"Vanilla-JS",
+					"HTML5",
+					"css3",
+				],
 			},
 		],
 		software: [
 			{
-				projectName: "Pizza Ordering ChatBot",
-				image: "images/pizzaorderchatbot.png",
+				projectName: "E-mail verification through OTP",
+				image: "images/email-verification-OTP.png",
 				summary:
-					"ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
+					"Web Api for login ,register, update profile and send otp in mail for email verification and successful registration.",
 				preview:
-					"https://github.com/satya584",
-				techStack: ["Dailogflow", "Firebase"],
+					"https://github.com/satya584/EmailVerificationThroughOTP",
+				techStack: ["Express-js", "@mailgun-js", "mongodb"],
 			},
 			{
-				projectName: "WhatsApp-Bot",
-				image: "images/whatsappbot.jpg",
+				projectName: "Bike rental backend",
+				image: "images/Bike-rental.jpg",
 				summary:
-					"Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.",
-				preview: "https://github.com/satya584",
-				techStack: ["Selenium", "Chrome Webdriver", "Python"],
-			},
-			{
-				projectName: "Bill Generator",
-				image: "images/billgenerator.png",
-				summary:
-					"GUI to transfer data to excel sheets and generate bills on the local shops.",
-				preview: "https://github.com/satya584",
-				techStack: ["Tkinter", "Openxlpy", "Python"],
+					"Backend/API developed for Bike rental application with Express.js & MongoDB.",
+				preview: "https://github.com/satya584/BikeRentalApplication",
+				techStack: ["Express.js", "mongodb", "API"],
 			},
 		],
 		/* android: [
